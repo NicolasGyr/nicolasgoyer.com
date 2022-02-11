@@ -236,6 +236,7 @@ main {
   width: -webkit-fill-available;
   cursor: url("images/emoji/eyes.svg"), auto;
   border-radius: 12px;
+  width: 100%;
 }
 
 .right {
