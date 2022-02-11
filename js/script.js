@@ -14,7 +14,7 @@ var cloudfilesTXT = ['CloudFiles, Application UI/UX.', "User interface & experie
 var cloudfilesCAT = ['UI / UX']
 
 var torikarasanTAB = ['images/TorikaraSan/Torikarasan-1.mp4']
-var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website from . <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
+var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website from. <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
 var torikarasanCAT = ['UI / UX', 'Website']
 
 
