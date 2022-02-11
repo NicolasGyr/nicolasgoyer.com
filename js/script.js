@@ -2,7 +2,7 @@ console.clear();
 
 //TAB
 var leeweisweeTAB = ['images/LeeWeiSwee/LeeWeiSwee-website.mp4']
-var leeweisweeTXT = ['Lee Wee Swei, website.', "Website for the photograph Lee Wei Swee <br> <span class='learnmore'> Click to learn more... </span>", "I created a personal website for the talented <a href='https://www.instagram.com/sweeriouslee/' target='_blank'  class='link-text'>Lee Wei Swee↗︎</a>, photographer who worked for Vogue, Versace, many famous magazines and celebrities. <br> <br> The challenge of this site was to show all Lee’s photos while maintaining the “magazine” aspect because he mostly works and shoots for magazines. All his photos are displayed on the homepage, grouped by shoots/collections, showing step by step, like you are reading a magazine. (website isn't online)<br><span class='text-span'>Date: December 2021 // Languages: Html, Css, Javascript</span>"]
+var leeweisweeTXT = ['Lee Wee Swei, website.', "Website for the photograph Lee Wei Swee <br> <span class='learnmore'> Click to learn more... </span>", "I created a personal website for the talented <a href='https://www.instagram.com/sweeriouslee/' target='_blank'  class='link-text'>Lee Wei Swee↗︎</a>, photographer who worked for Vogue, Versace, many famous magazines and celebrities. <br> <br> The challenge of this site was to show all Lee’s photos while maintaining the “magazine” aspect because he mostly works and shoots for magazines. All his photos are displayed on the homepage, grouped by shoots/collections, showing step by step, like you are reading a magazine. (website isn't online).<br><span class='text-span'>Date: December 2021 // Languages: Html, Css, Javascript</span>"]
 var leeweisweeCAT = ['UI / UX', 'Website']
 
 var nofutureTAB = ['images/No-Future/No-Future-1.jpg', 'images/No-Future/No-Future-2.jpg', 'images/No-Future/No-Future-3.jpg', 'images/No-Future/No-Future-4.jpg', 'images/No-Future/No-Future-5.jpg', 'images/No-Future/No-Future-6.jpg', 'images/No-Future/No-Future-7.jpg', 'images/No-Future/No-Future-8.jpg', 'images/No-Future/No-Future-9.jpg', 'images/No-Future/No-Future-10.jpg', 'images/No-Future/No-Future-11.jpg', 'images/No-Future/No-Future-12.jpg',]
@@ -10,19 +10,12 @@ var nofutureTXT = ['No Future, visual identity.', "Visual identity of Wit's albu
 var nofutureCAT = ['Typography', 'Editorial', 'Front & back cover']
 
 var cloudfilesTAB = ['images/CloudFiles/CloudFiles.mp4',]
-var cloudfilesTXT = ['CloudFiles, Application UI/UX.', "User interface & experience for a cloud application <br> <span class='learnmore'> Click to learn more... </span>", "The goal of this class project was to create a full UI & UX for an application. I've chosen a sharing and storing online files service. <br><br> The goal of this UI was to be the cleanest and simple as possible to create this secured and safe atmosphere <br><span class='text-span'>Date: July 2021 // Software: Figma</span>"]
+var cloudfilesTXT = ['CloudFiles, Application UI/UX.', "User interface & experience for a cloud application <br> <span class='learnmore'> Click to learn more... </span>", "The goal of this class project was to create a full UI & UX for an application. I've chosen a sharing and storing online files service. <br><br> The goal of this UI was to be the cleanest and simple as possible to create this secured and safe atmosphere. <br><span class='text-span'>Date: July 2021 // Software: Figma</span>"]
 var cloudfilesCAT = ['UI / UX']
 
 var torikarasanTAB = ['images/TorikaraSan/Torikarasan-1.mp4']
-var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & developp the website from nothing <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
+var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website from . <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
 var torikarasanCAT = ['UI / UX', 'Website']
-
-
-document.querySelector('.img').style.cursor = ' url("images/emoji/eyes.svg"), auto'
-document.querySelector('.title').style.cursor = ' url("images/emoji/ball.svg"), auto'
-document.querySelector('.mail').style.cursor = ' url("images/emoji/mail.svg"), auto'
-document.querySelector('.cursor').style.cursor = ' url("images/emoji/phone.svg"), auto'
-
 
 
 //VAR
@@ -175,9 +168,6 @@ async function fadeOut(param, time) {
       }
     }
     }
-
-    document.querySelector('.trymp4').style.cursor = ' url("images/emoji/pause.svg"), auto'
-    document.querySelector('.tryimg').style.cursor = ' url("images/emoji/eyes.svg"), auto'
   }
 
   //HOVER IMG

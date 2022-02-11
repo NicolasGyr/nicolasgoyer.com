@@ -90,7 +90,7 @@ header {
 
 .title {
   position: absolute;
-  cursor: url("images/emoji/ball.svg"), auto;
+  cursor: url("../images/emoji/ball.svg"), auto;
 }
 
 .container-header {
@@ -111,11 +111,11 @@ header {
 }
 
 .mail {
-  cursor: url("images/emoji/mail.svg"), auto;
+  cursor: url("../images/emoji/mail.svg"), auto;
 }
 
 .tel {
-  cursor: url("images/emoji/phone.svg"), auto;
+  cursor: url("../images/emoji/phone.svg"), auto;
 }
 
 
@@ -184,7 +184,7 @@ main {
 
 .img {
   width: -webkit-fill-available;
-  cursor: url("images/emoji/eyes.svg"), auto;
+  cursor: url("../images/emoji/eyes.svg"), auto;
   border-radius: 12px;
   width: 100%;
 }
@@ -267,7 +267,7 @@ footer{
 }
 
 .trymp4 {
-  cursor: url("images/emoji/pause.svg"), auto;
+  cursor: url("../images/emoji/pause.svg"), auto;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
 }
@@ -304,7 +304,7 @@ footer{
 
 .tryimg{
   width: 49%;
-  cursor: url('images/emoji/eyes.svg'), auto;
+  cursor: url('../images/emoji/eyes.svg'), auto;
   border-radius: 12px;
 }
 
