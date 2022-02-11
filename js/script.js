@@ -18,9 +18,7 @@ var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foo
 var torikarasanCAT = ['UI / UX', 'Website']
 
 
-document.querySelector('.trymp4').style.cursor = ' url("images/emoji/pause.svg"), auto'
 document.querySelector('.img').style.cursor = ' url("images/emoji/eyes.svg"), auto'
-document.querySelector('.tryimg').style.cursor = ' url("images/emoji/eyes.svg"), auto'
 document.querySelector('.title').style.cursor = ' url("images/emoji/ball.svg"), auto'
 document.querySelector('.mail').style.cursor = ' url("images/emoji/mail.svg"), auto'
 document.querySelector('.cursor').style.cursor = ' url("images/emoji/phone.svg"), auto'
@@ -177,6 +175,9 @@ async function fadeOut(param, time) {
       }
     }
     }
+
+    document.querySelector('.trymp4').style.cursor = ' url("images/emoji/pause.svg"), auto'
+    document.querySelector('.tryimg').style.cursor = ' url("images/emoji/eyes.svg"), auto'
   }
 
   //HOVER IMG
