@@ -2,7 +2,7 @@ console.clear();
 
 //TAB
 var leeweisweeTAB = ['images/LeeWeiSwee/LeeWeiSwee-website.mp4']
-var leeweisweeTXT = ['Lee Wee Swei, website.', "Website for the photograph Lee Wei Swee <br> <span class='learnmore'> Click to learn more... </span>", "I created a personal website for the talented <a href='https://www.instagram.com/sweeriouslee/' target='_blank'  class='link-text'>Lee Wei Swee↗︎</a>, photographer who worked for Vogue, Versace, many famous magazines and celebrities. <br> <br> The challenge of this site was to show all Lee’s photos while maintaining the “magazine” aspect because he mostly works and shoots for magazines. All his photos are displayed on the homepage, grouped by shoots/collections, showing step by step, like you are reading a magazine. (website isn't online).<br><span class='text-span'>Date: December 2021 // Languages: Html, Css, Javascript</span>"]
+var leeweisweeTXT = ['Lee Wee Swei.', "Website for the photograph Lee Wei Swee <br> <span class='learnmore'> Click to learn more... </span>", "I created a personal website for the talented <a href='https://www.instagram.com/sweeriouslee/' target='_blank'  class='link-text'>Lee Wei Swee↗︎</a>, photographer who worked for Vogue, Versace, many famous magazines and celebrities. <br> <br> The challenge of this site was to show all Lee’s photos while maintaining the “magazine” aspect because he mostly works and shoots for magazines. All his photos are displayed on the homepage, grouped by shoots/collections, showing step by step, like you are reading a magazine. (website isn't online).<br><span class='text-span'>Date: December 2021 // Languages: Html, Css, Javascript</span>"]
 var leeweisweeCAT = ['UI / UX', 'Website']
 
 var nofutureTAB = ['images/No-Future/No-Future-1.jpg', 'images/No-Future/No-Future-2.jpg', 'images/No-Future/No-Future-3.jpg', 'images/No-Future/No-Future-4.jpg', 'images/No-Future/No-Future-5.jpg', 'images/No-Future/No-Future-6.jpg', 'images/No-Future/No-Future-7.jpg', 'images/No-Future/No-Future-8.jpg', 'images/No-Future/No-Future-9.jpg', 'images/No-Future/No-Future-10.jpg', 'images/No-Future/No-Future-11.jpg', 'images/No-Future/No-Future-12.jpg',]
@@ -10,13 +10,16 @@ var nofutureTXT = ['No Future, visual identity.', "Visual identity of Wit's albu
 var nofutureCAT = ['Typography', 'Editorial', 'Front & back cover']
 
 var cloudfilesTAB = ['images/CloudFiles/CloudFiles.mp4',]
-var cloudfilesTXT = ['CloudFiles, Application UI/UX.', "User interface & experience for a cloud application <br> <span class='learnmore'> Click to learn more... </span>", "The goal of this class project was to create a full UI & UX for an application. I've chosen a sharing and storing online files service. <br><br> The goal of this UI was to be the cleanest and simple as possible to create this secured and safe atmosphere. <br><span class='text-span'>Date: July 2021 // Software: Figma</span>"]
-var cloudfilesCAT = ['UI / UX']
+var cloudfilesTXT = ['CloudFiles.', "User interface & experience for a cloud application <br> <span class='learnmore'> Click to learn more... </span>", "The goal of this class project was to create a full UI & UX for an application. I've chosen a sharing and storing online files service. <br><br> The goal of this UI was to be the cleanest and simple as possible to create this secured and safe atmosphere. <br><span class='text-span'>Date: July 2021 // Software: Figma</span>"]
+var cloudfilesCAT = ['Application', 'UI / UX']
 
 var torikarasanTAB = ['images/TorikaraSan/Torikarasan-1.mp4']
-var torikarasanTXT = ['Torikara San, website.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website from. <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
+var torikarasanTXT = ['Torikara San.', "Website for a japanese fast-foods restaurant <br> <span class='learnmore'> Click to learn more... </span>", "In group of two we were ordered to fully create a website for a japanese fast-foods in Dijon. The challenge here was that we only got 5 days to design & develop the website. <br><br>In this project I was mainly focused on the UI & UX of the website. The client here was pretty cool, gave us carte blanche but requested few things like having a google map iframe, picture of every meals etc. <br><span class='text-span'>Date: March 2021 // Software: Figma, Html, Css</span>"]
 var torikarasanCAT = ['UI / UX', 'Website']
 
+var cceTAB = ['images/ConseilConfortEnergie/CCE.mp4']
+var cceTXT = ['Conseil Confort Energie.', "Website for Conseil Confort Energie <br> <span class='learnmore'> Click to learn more... </span>", "My mate Thomas Palheiro and I created from scratch Conseil Confort Energie’s website. During the first appointment with the client we understood that he wanted something big, impacting. Therefore we created a 3D house animation, showcasing its most popular products. The design process completed we decided to develop on Webflow.<br><br>We learned a lot creating this website, both the technical (3D, lottie, Webflow …) and human (client relationship, organization, administrative ...) aspects.<br><br>Website: <a href='https://cce-0c92fc.webflow.io/' target='_blank'  class='link-text'>CCE↗︎</a> (not 100% finished, waiting for the client approval & contents)<br><span class='text-span'>Date: June 2022 // Techno: Figma & Webflow </span>"]
+var cceCAT = ['UI / UX', 'Website']
 
 //VAR
 var classImg = document.querySelectorAll(".img")
@@ -54,6 +57,12 @@ function getTab() {
     arrayHover = torikarasanTAB
     arrayHoverTxt = torikarasanTXT
     arrayHoverCat = torikarasanCAT
+    imgOrMov = 1
+  }
+  else if (hoveringElementId == 'cce') {
+    arrayHover = cceTAB
+    arrayHoverTxt = cceTXT
+    arrayHoverCat = cceCAT
     imgOrMov = 1
   }
 }
@@ -139,6 +148,7 @@ async function fadeOut(param, time) {
         newDivImg.setAttribute('loop', 'loop')
         newDivImg.setAttribute('autoplay', 'autoplay')
         newDivImg.setAttribute('muted', 'muted')
+        newDivImg.setAttribute('controls', 'controls')
         newDivImg.src = arrayHover[i]
         document.querySelector('.containerimg').appendChild(newDivImg);
 
@@ -155,18 +165,18 @@ async function fadeOut(param, time) {
       }
 
     //PAUSE & PLAY VIDEO
-    document.querySelector('.trymp4').addEventListener('click', playPause)
-    function playPause() {
-      if (playingOrPaused == 0) {
-        document.querySelector('.trymp4').pause()
-        document.querySelector('.trymp4').style.cursor = ' url("images/emoji/play.svg"), auto'
-        playingOrPaused = 1
-      } else {
-        document.querySelector('.trymp4').play()
-        document.querySelector('.trymp4').style.cursor = ' url("images/emoji/pause.svg"), auto'
-        playingOrPaused = 0
-      }
-    }
+    // document.querySelector('.trymp4').addEventListener('click', playPause)
+    // function playPause() {
+    //   if (playingOrPaused == 0) {
+    //     document.querySelector('.trymp4').pause()
+    //     document.querySelector('.trymp4').style.cursor = ' url("images/emoji/play.svg"), auto'
+    //     playingOrPaused = 1
+    //   } else {
+    //     document.querySelector('.trymp4').play()
+    //     document.querySelector('.trymp4').style.cursor = ' url("images/emoji/pause.svg"), auto'
+    //     playingOrPaused = 0
+    //   }
+    // }
     }
   }
 

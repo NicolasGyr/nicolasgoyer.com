@@ -43,6 +43,13 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  background-image: url('../bg.gif');
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1{
@@ -58,8 +65,8 @@ h2 {
   margin: 0;
   text-transform: uppercase;
   font-weight: 100;
-  line-height: 0.9em;
   margin-bottom: 1rem;
+  line-height: 100%;
   padding-top: 0.2em;
 }
 
@@ -177,7 +184,7 @@ main {
 .btn-cat {
   background-color: #0636dd;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   padding: 6px 18px;
   border-radius: 1000px;
 }
@@ -186,6 +193,7 @@ main {
   width: -webkit-fill-available;
   cursor: url("../images/emoji/eyes.svg"), auto;
   border-radius: 12px;
+  background-color: white;
   width: 100%;
 }
 
@@ -193,13 +201,19 @@ main {
   align-self: flex-end;
 }
 .shadow {
-  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.08);
+}
+
+#cce-prjt {
+  width: 55%;
+ margin: 0em 2em 4em 0em;
 }
 
 #leeweiswee-prjt {
   width: 55%;
  margin: 0em 2em 0 0em;
 }
+
 #nofuture-prjt {
   width: 30%;
  margin: -5em 0 0 0em;
@@ -267,7 +281,7 @@ footer{
 }
 
 .trymp4 {
-  cursor: url("../images/emoji/pause.svg"), auto;
+  // cursor: url("../images/emoji/pause.svg"), auto;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
 }
@@ -287,7 +301,7 @@ footer{
 .btn-cat2 {
   background-color: #0636dd;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 36px;
   border-radius: 1000Px;
 }
@@ -368,6 +382,11 @@ h1 {
 
 .right {
   align-self: auto;
+}
+
+#cce-prjt {
+  width: 90%;
+ margin: 0;
 }
 
 #leeweiswee-prjt {
