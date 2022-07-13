@@ -21,6 +21,14 @@ var cceTAB = ['images/ConseilConfortEnergie/CCE.mp4']
 var cceTXT = ['Conseil Confort Energie.', "Website for Conseil Confort Energie <br> <span class='learnmore'> Click to learn more... </span>", "My mate Thomas Palheiro and I created from scratch Conseil Confort Energie’s website. During the first appointment with the client we understood that he wanted something big, impacting. Therefore we created a 3D house animation, showcasing its most popular products. The design process completed we decided to develop on Webflow.<br><br>We learned a lot creating this website, both the technical (3D, lottie, Webflow …) and human (client relationship, organization, administrative ...) aspects.<br><br>Website: <a href='https://cce-0c92fc.webflow.io/' target='_blank'  class='link-text'>CCE↗︎</a> (not 100% finished, waiting for the client approval & contents)<br><span class='text-span'>Date: June 2022 // Techno: Figma & Webflow </span>"]
 var cceCAT = ['UI / UX', 'Website']
 
+var sodigitalTAB = ['images/Sodigital/Sodigital-1.jpg', 'images/Sodigital/Sodigital-2.jpg', 'images/Sodigital/Sodigital-3.jpg', 'images/Sodigital/Sodigital-4.jpg', 'images/Sodigital/Sodigital-5.jpg', 'images/Sodigital/Sodigital-6.jpg', 'images/Sodigital/Sodigital-7.jpg']
+var sodigitalTXT = ['Sodigital.', "Logotype for Sodigital <br> <span class='learnmore'> Click to learn more... </span>", "Sodigital is an enterprise that connects talents and companies. It is divided into 4 sections: Consulting, Projects, Design and Technique. I made a custom logotype and created 4 icons which each highlight one aspect.<br><span class='text-span'>Date: May 2022 // Techno: Illustrator<br>(proposal declined)</span>"]
+var sodigitalCAT = ['Typography']
+
+var chanvreTAB = ['images/Chanvre/Chanvre.mp4']
+var chanvreTXT = ['La Ferme du Bois.', "Website for La Ferme du Bois <br> <span class='learnmore'> Click to learn more... </span>", "The purpose of this website was to highlight these hemp cookies (don't worry it's legal lol). For this project we were in group and I was charged to create the artistic direction both of the product itself and the website (UI).<br><span class='text-span'>Date: February 2022 // Techno: Illustrator & Figma </span>"]
+var chanvreCAT = ['Website', 'Visual identity']
+
 //VAR
 var classImg = document.querySelectorAll(".img")
 var classContainerImg = document.querySelector('.containerimg')
@@ -63,6 +71,18 @@ function getTab() {
     arrayHover = cceTAB
     arrayHoverTxt = cceTXT
     arrayHoverCat = cceCAT
+    imgOrMov = 1
+  }
+  else if (hoveringElementId == 'sodigital') {
+    arrayHover = sodigitalTAB
+    arrayHoverTxt = sodigitalTXT
+    arrayHoverCat = sodigitalCAT
+    imgOrMov = 0
+  }
+  else if (hoveringElementId == 'chanvre') {
+    arrayHover = chanvreTAB
+    arrayHoverTxt = chanvreTXT
+    arrayHoverCat = chanvreCAT
     imgOrMov = 1
   }
 }
