@@ -162,11 +162,13 @@ main {
   font-style: italic;
 }
 
-.span-underligne {
-  background-color: #aaaaaa;
+.span-bg {
+  background-color: #0636dd;
   border-radius: 100px;
   padding: 2px 16px 4px 16px;
-  color: white;}
+  color: white;
+  cursor: url("../images/emoji/pin.svg"), auto;
+}
 
 .container-description-prjt {
   display: flex;
@@ -378,7 +380,7 @@ footer{
           text-indent: 100px;
         }
 
-        .span-underligne {
+        .span-bg {
           padding: 1px 12px 2px 12px;
         }
 
