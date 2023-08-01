@@ -29,34 +29,6 @@ var chanvreTAB = ['images/Chanvre/Chanvre.mp4']
 var chanvreTXT = ['La Ferme du Bois.', "Website for La Ferme du Bois <br> <span class='learnmore'> Click to learn more... </span>", "The purpose of this website was to highlight these hemp cookies (don't worry it's legal lol). For this project we were in group and I was charged to create the artistic direction both of the product itself and the website (UI).<br><span class='text-span'>Date: February 2022 // Techno: Illustrator & Figma </span>"]
 var chanvreCAT = ['Website', 'Visual identity']
 
-var butcherTAB = ['images/Butcher/Butcher-0.jpg', 'images/Butcher/Butcher-1.jpg', 'images/Butcher/Butcher-2.jpg', 'images/Butcher/Butcher-3.jpg', 'images/Butcher/Butcher-4.jpg', 'images/Butcher/Butcher-5.jpg', 'images/Butcher/Butcher-6.jpg', 'images/Butcher/Butcher-7.jpg', 'images/Butcher/Butcher-8.jpg', 'images/Butcher/Butcher-9.jpg', 'images/Butcher/Butcher-10.jpg', 'images/Butcher/Butcher-11.jpg', ]
-var butcherTXT = ['The Butcher', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "This project was carried out as part of my Bachelor's degree at ESADD. In a group of two, we created a complete branding for a fictional food truck named 'The Butcher.' Located near the surf school in Lacanau. This food truck specializes in cold dining options while focusing on eco-friendly practices. Our mission was to design a unique branding that reflects both the laid-back beach lifestyle and the commitment to sustainability..<br><span class='text-span'>Date: 2023 // Techno: Illustrator & Figma"]
-var butcherCAT = ['Branding', 'Art direction']
-
-var cubynTAB = ['images/Cubyn/Cubyn-0.jpg', 'images/Cubyn/Cubyn-1.jpg', 'images/Cubyn/Cubyn-2.jpg', 'images/Cubyn/Cubyn-3.jpg', 'images/Cubyn/Cubyn-4.jpg', 'images/Cubyn/Cubyn-5.jpg', ]
-var cubynTXT = ['Cubyn', "/", "This project is the creation of the ‘Our Commitments’ page for the French start-up Cubyn. The goal here was to enhance the already existing branding to make the page more appealing, especially in line with its content..<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma </span>"]
-var cubynCAT = ['UI / UX', 'Webdesign']
-
-var paperclipTAB = ['images/Paperclip/Paperclip-0.jpg', 'images/Paperclip/Paperclip-1.jpg', 'images/Paperclip/Paperclip-2.jpg', 'images/Paperclip/Paperclip-3.jpg', 'images/Paperclip/Paperclip-4.jpg', 'images/Paperclip/Paperclip-5.jpg', 'images/Paperclip/Paperclip-6.jpg', ]
-var paperclipTXT = ['Paperclip', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "Here is the design of the application for the American start-up ‘Paperclip’ along with its website for promotion. It was essential to make the application accessible and user-friendly. The website had to present the application along with its user flow.<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma</span>"]
-var paperclipCAT = ['UI / UX', 'Webdesign', 'Product Design']
-
-var zeliqTAB = ['images/Zeliq/Zeliq-0.jpg', 'images/Zeliq/Zeliq-1.jpg', 'images/Zeliq/Zeliq-2.jpg', 'images/Zeliq/Zeliq-3.jpg', 'images/Zeliq/Zeliq-4.jpg', 'images/Zeliq/Zeliq-5.jpg', ]
-var zeliqTXT = ['Zeliq', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "This project involves the UI & UX interface design of the CRM for the French start-up ‘Zeliq’. My colleagues and I were responsible for the user flow as well as the design of the CRM's interface (Customer Relationship Management).<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma</span>"]
-var zeliqCAT = ['Product Design']
-
-var macadamTAB = ['images/Macadam/Macadam-0.jpg', 'images/Macadam/Macadam-1.jpg', 'images/Macadam/Macadam-2.jpg', 'images/Macadam/Macadam-3.jpg', 'images/Macadam/Macadam-4.jpg', ]
-var macadamTXT = ['Macadam', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "This project involves the UI & UX interface design of the application of ‘Macadam’ who’s an application rewarding the user by walking. My colleagues and I were responsible for the user flow as well as the design of the product.<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma</span>"]
-var macadamCAT = ['Product Design']
-
-var voxpayTAB = ['images/Voxpay/Voxpay-0.jpg', 'images/Voxpay/Voxpay-1.jpg', 'images/Voxpay/Voxpay-2.jpg', 'images/Voxpay/Voxpay-3.jpg', 'images/Voxpay/Voxpay-4.jpg', 'images/Voxpay/Voxpay-5.jpg', 'images/Voxpay/Voxpay-6.jpg', 'images/Voxpay/Voxpay-7.jpg', 'images/Voxpay/Voxpay-8.jpg', 'images/Voxpay/Voxpay-9.jpg', 'images/Voxpay/Voxpay-10.jpg', ]
-var voxpayTXT = ['Voxpay', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "This project is the development of the new branding for the company ‘Voxpay’ specializing in payment by telecommunication, E-TPE (Electronic Point of Sale), etc., along with the design of their website. My colleagues and I worked on this branding, showcasing the technical, human, and relational aspects, as well as the security of their products. The website, in turn, incorporates this new artistic direction to present the various services of Voxpay.<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma</span>"]
-var voxpayCAT = ['UI / UX', 'Webdesign', 'Branding', 'Art direction']
-
-var lockselfTAB = ['images/Lockself/Lockself-0.jpg', 'images/Lockself/Lockself-1.jpg', 'images/Lockself/Lockself-2.jpg', 'images/Lockself/Lockself-3.jpg', 'images/Lockself/Lockself-4.jpg', 'images/Lockself/Lockself-5.jpg', 'images/Lockself/Lockself-6.jpg', 'images/Lockself/Lockself-7.jpg', 'images/Lockself/Lockself-8.jpg', ]
-var lockselfTXT = ['Lockself', "Branding for The Butcher <br> <span class='learnmore'> Click to learn more... </span>", "This project is the development of the new branding for the company ‘LockSelf’ specializing in passwords management, file exchange, database etc., along with the design of their website. My colleagues and I worked on this branding, showcasing the technical, human, and relational aspects, as well as the security of their products. The website, in turn, incorporates this new artistic direction to present the various services of LockSelf.<br><span class='text-span'>Date: 2023 with PeloStudio // Techno: Figma </span>"]
-var lockselfCAT = ['UI / UX', 'Webdesign', 'Branding', 'Art direction']
-
 //VAR
 var classImg = document.querySelectorAll(".img")
 var classContainerImg = document.querySelector('.containerimg')
@@ -112,48 +84,6 @@ function getTab() {
     arrayHoverTxt = chanvreTXT
     arrayHoverCat = chanvreCAT
     imgOrMov = 1
-  }
-  else if (hoveringElementId == 'butcher') {
-    arrayHover = butcherTAB
-    arrayHoverTxt = butcherTXT
-    arrayHoverCat = butcherCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'cubyn') {
-    arrayHover = cubynTAB
-    arrayHoverTxt = cubynTXT
-    arrayHoverCat = cubynCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'paperclip') {
-    arrayHover = paperclipTAB
-    arrayHoverTxt = paperclipTXT
-    arrayHoverCat = paperclipCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'zeliq') {
-    arrayHover = zeliqTAB
-    arrayHoverTxt = zeliqTXT
-    arrayHoverCat = zeliqCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'macadam') {
-    arrayHover = macadamTAB
-    arrayHoverTxt = macadamTXT
-    arrayHoverCat = macadamCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'voxpay') {
-    arrayHover = voxpayTAB
-    arrayHoverTxt = voxpayTXT
-    arrayHoverCat = voxpayCAT
-    imgOrMov = 0
-  }
-  else if (hoveringElementId == 'lockself') {
-    arrayHover = lockselfTAB
-    arrayHoverTxt = lockselfTXT
-    arrayHoverCat = lockselfCAT
-    imgOrMov = 0
   }
 }
 
